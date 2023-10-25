@@ -17,7 +17,7 @@ diesel cli can help us setup the file structure for a new migration
 
 To achieve what we have stated in the above line first we have to 
    
-    1. `diesel migration generate videos` 
+    1. diesel migration generate videos 
     
     
     a. diesel has created a directory inside our migrations directory that's prefixed with a date and time and then postfix with what we named that migration which in our case is videos 
