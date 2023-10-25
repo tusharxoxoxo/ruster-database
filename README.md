@@ -16,8 +16,10 @@ a migration (in the context of automatic schema migration) is a unit of SQL that
 diesel cli can help us setup the file structure for a new migration
 
 To achieve what we have stated in the above line first we have to 
-    1. ```diesel migration generate videos ```
-    diesel has created a directory inside our migrations directory that's prefixed with a date and time and then postfix with what we named that migration which in our case is videos
+    1. `diesel migration generate videos` 
+    
+    
+    a. diesel has created a directory inside our migrations directory that's prefixed with a date and time and then postfix with what we named that migration which in our case is videos
     migrations are run in chronological order specified by the timestamps on the directory name, beyond that we can arrange our migration however we like
-    i am going to a separate migration for each of my tables like videos, users, and views, i can also put all these tables inside a single migration but i like to keep them separated, a personal choice, who knows must be because of the YouTube tutorial guy did the same
+    b. i am going to a separate migration for each of my tables like videos, users, and views, i can also put all these tables inside a single migration but i like to keep them separated, a personal choice, who knows must be because of the YouTube tutorial guy did the same
 
